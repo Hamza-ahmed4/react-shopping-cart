@@ -31,8 +31,8 @@ a:hover{
 header{
   grid-area: header;
   background-color: #203040;
-  color: #ffffff;
-  justify-content: center;
+  color: #ffffff; 
+  display: flex;
   align-items: center;
   padding: 0.5rem;
 }
