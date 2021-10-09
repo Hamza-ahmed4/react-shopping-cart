@@ -109,6 +109,7 @@ footer{
   font-size : 2rem;
 }
 .button {
+  width: auto;
   padding: 1rem;
   border: .1rem #c0c0c0 solid;
   background-color: #f0f0f0;
@@ -200,4 +201,29 @@ footer{
 input{
   padding: 1rem;
   border: .1rem #c0c0c0 solid;
+}
+
+
+/*PRODUCT DETAILS MODAL */
+
+.product-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+.product-details img{
+  max-width: 500px;
+  max-height: 46rem;
+  margin: 0 0 0 0.5px;
+}
+.product-details-description{
+  flex: 1 1;
+  margin: 1rem;
+}
+.close-modal {
+  position :absolute;
+   right: 1rem;
+   top: 2.5rem;
+   z-index: 1000;
 }
